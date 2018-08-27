@@ -1,6 +1,28 @@
-frontend-nanodegree-arcade-game
-===============================
+# Arcade Game
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+The purpose of this game is for the player to make it to the water without colliding with the bugs. To play the game, open `index.html` and use the up/down/left/right keys to navigate the player on the board. To learn how to run the game, please read the instructions below.
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+## Table of Contents
+
+* [Instructions](#instructions)
+* [Contributing](#contributing)
+
+## Instructions
+
+### Player
+
+The player can go anywhere on the board. If there is a collision with a bug, the player is returned to its starting point.
+
+### Obstacles
+
+At any given time, no more than four bugs are on the board traveling at different set speeds and set positions that are determined randomly. The speed, positions, and number of bugs can be increased in `app.js`.
+
+### Restart Button
+
+Once the player reaches the water, the screen goes dim and a restart button allows the player to reset at the starting position.
+
+## Contributing
+
+This project was created for the FEND Udacity course. Therefore, we most likely will not accept pull requests.
+
+For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
